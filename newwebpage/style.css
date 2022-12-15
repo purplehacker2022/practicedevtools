@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(8, 141, 244),rgba(23, 134, 219, 0.773));
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 62px;
+    padding-left: 50x;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: rgb(227, 227, 227) !important;
+    font-weight: 500;
+    font-size: 29px;
+    font-family:'Times New Roman', Times, serif;
+}
+.dropdown-menu li a{
+    font-style:inherit;
+    font-weight: bold;
+    color: rgb(136, 136, 136) !important;
+}
+button{
+    font-size: 24px!important;
+    font-style: italic;
+    color:rgb(227, 227, 227)!important;
+
+}
+#banner{
+    background-image: linear-gradient(to right, rgb(8, 141, 244),rgba(23, 134, 219, 0.773));
+    color:rgb(227, 227, 227);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding:50px;
+
+}
+.firstheading{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+}
