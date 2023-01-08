@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 body{
@@ -11,7 +11,7 @@ body{
     z-index: 10;
 }
 .navbar{
-    background-image: linear-gradient(to right, rgb(8, 141, 244),rgba(23, 134, 219, 0.773));
+    background-image: linear-gradient(to right, rgb(8, 141, 244),rgba(71, 177, 248, 0.773),rgb(8, 141, 244));
     padding: 0 !important;
 }
 .navbar-brand img{
@@ -39,16 +39,49 @@ button{
 
 }
 #banner{
-    background-image: linear-gradient(to right, rgb(8, 141, 244),rgba(23, 134, 219, 0.773));
-    color:rgb(227, 227, 227);
+    background-image: linear-gradient( to right, rgb(8, 141, 244),rgba(71, 177, 248, 0.773),rgb(8, 141, 244));
+    color:rgb(40, 38, 38);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
-    font-size: 30px;
-    padding:50px;
+    font-size: 20px;
+    padding:30px;
+    border-radius: 0px 840px 0px 840px;
 
 }
 .firstheading{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+/*----------services section-----------*/
+
+#services{
+    width:auto;
+    border: 2px solid rgba(137, 43, 226, 0.034);
+    padding: 70px ;
+    background-color: rgba(137, 43, 226, 0.61);
+    margin:10px;
+    border-radius: 320px;
+    float: left;
+}
+#services1{
+    width:auto;
+    border: 2px solid rgba(120, 38, 196, 0.045);
+    padding: 80px  ;
+    background-image: linear-gradient(rgba(120, 38, 196, 0.793),rgba(120, 38, 196, 0.045));
+    margin:10px;
+    border-radius: 320px;
+    float:left;
+}
+#services2{
+    width:auto;
+    border: 2px solid rgba(91, 30, 147, 0.218);
+    padding: 70px ;
+   
+    background-image:radial-gradient(rgba(161, 95, 219, 0.93),rgba(61, 26, 94, 0.936));
+    margin:10px;
+    border-radius: 320px;
+    float: left;
 }
